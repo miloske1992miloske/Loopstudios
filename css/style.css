@@ -328,7 +328,7 @@ footer .container {
 	.menu nav ul {
 		position: absolute;
 		width: 100%;
-		height: 55vh;
+		height: 60vh;
 		top: -100%;
 		left: 0;
 		display: flex;
