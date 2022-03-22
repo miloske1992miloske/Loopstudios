@@ -36,3 +36,4 @@ function writeText() {
 
     setTimeout(writeText, 200)
 }
+
