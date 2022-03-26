@@ -23,7 +23,7 @@ const textEl = document.getElementById('text')
 const text = 'Immersive Experiences that deliver'
 let idx = 1
 
-setTimeout(writeText, 6000) 
+// setTimeout(writeText, 6000) 
 
 function writeText() {
     textEl.innerText = text.slice(0, idx)
@@ -52,6 +52,7 @@ function blurring() {
 	if(load > 99) {
 		clearInterval(int)
 		loadText.style.display = `none`
+		writeText()
 	}
 
 	loadText.innerText = `${load}%`
