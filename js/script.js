@@ -34,7 +34,7 @@ function writeText() {
         idx = 1
     } */
 
-    setTimeout(writeText, 200)
+    setTimeout(writeText, 150)
 }
 
 // Blur
