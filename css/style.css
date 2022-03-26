@@ -21,6 +21,24 @@ li {
 	list-style: none;
 }
 
+/* Bg Loading */
+.bg { 
+	z-index: -1;
+	filter: blur(30px);
+}
+
+.loading-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	height: 100vh;
+	width: 100%;
+	z-index: 100;
+	font-size: 50px;
+	color: #000;
+}
+
 /* Header */
 
 .header {
@@ -421,7 +439,3 @@ footer .container {
 }
 
 
-
-
-
-    
